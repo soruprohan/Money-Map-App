@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tv_about_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About the App"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Developer Information -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This app was built by MD. SORUP ROHAN as a project for Advanced Programming Laboratory."
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- GitHub Profile with QR Code -->
+        <TextView
+            android:id="@+id/tv_github_profile_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GitHub Profile Link"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginBottom="8dp" />
+
+        <ImageView
+            android:id="@+id/img_qr_code"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:contentDescription="QR Code for GitHub Profile"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/qr_code_placeholder" />
+
+        <!-- Features Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Features"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Authentication Features -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Authentication:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Login and Signup with email\n- Email verification\n- Forget Password option\n- Delete account"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Database Features -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Database:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Firestore:\n- User can Add transaction, along with transaction type, and a note\n- The transactions will be sorted via time i.e, last recorded transaction\n- Reading transactions from user and showing them in the dashboard as well as in pie chart\n- Updating and deleting a previously added transaction"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Realtime database:\n- Users can rate the app which is stored in Firebase Realtime Database"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- JSON Parsing Feature -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JSON Parsing:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Latest Finance news around the world\n- Featured articles of the market"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Other Features -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other Features:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Option to share app's APK download link\n- An animated Splash Screen\n- An animated 'No internet' Dialogue if the user tries to Enter without internet connection"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+</ScrollView>

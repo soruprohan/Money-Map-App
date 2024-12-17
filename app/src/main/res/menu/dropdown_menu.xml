@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/income_option"
+        android:title="Income Chart" />
+    <item
+        android:id="@+id/expense_option"
+        android:title="Expense Chart" />
+    <item
+        android:id="@+id/balance_option"
+        android:title="Balance Chart" />
+</menu>

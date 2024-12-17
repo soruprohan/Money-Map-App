@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.ExpenseManager2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimaryDark">@color/red</item>
+    </style>
+
+    <!-- Application Theme -->
+    <style name="Theme.ExpenseManager2" parent="Base.Theme.ExpenseManager2" />
+
+    <!-- Splash Screen Theme -->
+</resources>
