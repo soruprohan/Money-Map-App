@@ -4,8 +4,7 @@
 This app was built by **MD. SORUP ROHAN** as a project for the **Advanced Programming Laboratory** course.
 
 ## GitHub Profile
-Check out the developer's GitHub profile: [GitHub Profile Link](#)  
-![QR Code for GitHub Profile](qr_code_placeholder.png)
+Check out the developer's GitHub profile: [GitHub Profile](https://github.com/soruprohan)
 
 ## Features
 
