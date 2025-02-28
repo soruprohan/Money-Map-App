@@ -5,14 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cream"
+    android:background="@color/light_purple"
     android:orientation="vertical"
     tools:context=".AddTransactionActivity">
 
     <RelativeLayout
         android:id="@+id/custom_toolbar_add_transaction"
         android:layout_width="match_parent"
-        android:background="@color/red"
+        android:background="@color/purple"
         android:layout_height="?actionBarSize">
         <TextView
             android:textColor="@color/white"
@@ -85,7 +85,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="12dp"
-        android:backgroundTint="@color/red"
+        android:backgroundTint="@color/purple"
         android:text="Update"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
@@ -94,7 +94,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="12dp"
-        android:backgroundTint="@color/red"
+        android:backgroundTint="@color/purple"
         android:text="Delete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>

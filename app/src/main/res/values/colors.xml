@@ -17,5 +17,6 @@
     <color name="gray">#808080</color>
     <color name="cream">#FFFDD0</color>
     <color name="dutch_white">#F0DFBC</color>
-
+    <color name="purple">#8692f7</color>
+    <color name="light_purple">#E6E6FA</color>
 </resources>

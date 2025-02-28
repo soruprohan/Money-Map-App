@@ -3,7 +3,7 @@
     android:layout_height="200dp"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/red">
+    android:background="@color/purple">
 
     <ImageView
         android:id="@+id/nav_header_image"

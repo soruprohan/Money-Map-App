@@ -13,14 +13,14 @@
         android:id="@+id/main_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/cream">
+        android:background="@color/light_purple">
 
         <!-- Custom Toolbar -->
         <RelativeLayout
             android:id="@+id/custom_toolbar_dashboard"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:background="@color/red">
+            android:background="@color/purple">
 
             <ImageView
                 android:id="@+id/refresh_btn"
@@ -162,7 +162,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_margin="16dp"
-            android:backgroundTint="@color/red"
+            android:backgroundTint="@color/purple"
             app:cardCornerRadius="40dp">
 
             <RelativeLayout

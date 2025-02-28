@@ -44,7 +44,7 @@
         android:padding="10dp"
         android:text="Retry"
         android:textColor="@color/white"
-        android:backgroundTint="@color/red"
+        android:backgroundTint="@color/purple"
         app:layout_constraintTop_toBottomOf="@id/noInternetText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
